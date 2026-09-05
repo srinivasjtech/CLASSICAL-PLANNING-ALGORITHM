@@ -57,7 +57,7 @@ def find_plan(initial_state, goal_state, actions):
 ```
 
 # Example - 1
-```
+```py
 initial_state = {'A': 'Table', 'B': 'Table'}
 goal_state = {'A': 'B', 'B': 'Table'}
 
@@ -75,7 +75,7 @@ print(plan)
 ```
 
 # Example - 2
-```
+```py
 initial_state = {'A': 'Table', 'B': 'Table', 'C': 'Table'}
 goal_state = {'A': 'B', 'B': 'C', 'C': 'Table'}
 
